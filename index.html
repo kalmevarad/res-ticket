@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive ticket</title>
+    <style>
+      .tic {
+        
+        width: 600px;
+        height: 300px;
+        border-radius: 10px;
+        
+        display: flex;
+        
+        margin:40px auto;
+        
+        
+      }
+      .tkt{
+       
+        background-color: #000000;
+        height: 300px;
+        width: 350px;
+        border-right: white dotted;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 10px;
+        color: aliceblue;
+        
+        
+      }
+      
+      .coupan{
+        background-color: #000000;
+        height: 300px;
+        width: 250px;
+        text-align: center;
+        font-size: 15px;
+        color: #e4dfdf;
+        border-radius: 10px;
+        border: solid 1px white;
+        
+      
+
+      }
+      .ctr{
+        font-size: 20px;
+        background-color: #e4dfdf;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        
+      }
+      .arrange{
+        background-color:white ;
+        color: black;
+        font-size: 15px;
+      }
+
+      .img{
+        height: 40px;
+         width: 90px;
+          margin-top: 20px;
+          padding-bottom: 0%;
+          text-align: center;
+      }
+
+      .het{
+        color: rgb(255, 255, 255);
+      }
+
+      .alt{
+        height: 110px; 
+        width:250px; 
+      }
+      
+      @media screen and (max-width: 600px) {
+            .tic{
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+                width: 300px;
+                
+              }
+
+              .tkt{
+                width: 300px;
+                border-bottom: dotted white;
+                border-right: none;
+                font-size: 25px;
+                
+
+
+            }
+            .coupan{
+              width: 300px;
+              height: 260px;
+              font-size: 15px;
+            }
+            .img{
+                   
+                   width: 70px;
+                   margin-top: 10px; 
+                   text-align: center;
+      }
+    
+      
+
+      .alt{
+        height: 110px; 
+        width:300px
+      }
+    }
+            
+            
+      
+            
+     @media screen and (min-width: 601px) and (max-width: 850px) {
+          
+            .tic{
+                  flex-direction: column;
+                  align-items: center;
+                  height: auto;
+                  width: 450px;
+                  
+                }
+
+                .tkt{
+                  width: 450px;
+                  border-bottom: dotted white;
+                  border-right: none;
+                  font-size: 25px;
+                  
+                  
+
+
+              }
+              .coupan{
+                width: 450px;
+                height: 270px;
+                font-size: 15px;
+              }
+              .img{
+                    width: 130px;
+                    margin-top: 10px; 
+                    text-align: center;
+        }
+        
+
+        .alt{
+          height: 110px; 
+          width:450px
+            
+            
+              }
+            }
+
+          
+        @media screen and (min-width: 851px) and (max-width: 1200px) {
+          
+          .tic{
+                flex-direction: row;
+                align-items: center;
+                
+                
+              }
+
+              
+
+          
+
+      
+            }
+        
+    </style>
+    <body>
+        <div class="tic">
+          
+          
+          
+          
+          <div class="tkt">
+           
+           
+           <img   src="./img/logo.png" style="height: 40px; width: 90px;margin-left: 10px; margin-top: 10px;">
+           
+           <p 
+           class="ctr">
+            ID CODE= EN231
+           <p>
+            <h3>TICKET </h3>
+            <p class="arrange"><b>singing compitition</b></p>
+            <p >On 3 March, &nbsp;7:30 pm </p>
+                  
+          </div>
+            
+
+          <div class="coupan"> 
+              <img  class="img" src="./img/logo.png" >
+
+
+              
+             <p><b class="het">VIP PASS</b></p> 
+              
+              <img class="alt" src="img/consert.webp">
+              
+              <p><b>Music Consert<br>
+                 ID CODE= EN231 </b></p>
+          </div>
+                
+        </div>
+          
+            
+    </body>
